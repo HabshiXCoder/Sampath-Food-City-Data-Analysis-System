@@ -29,6 +29,31 @@ This project provides a data analysis system for **Sampath Food City Pvt Ltd**, 
 3. **Install required packages**
    ```sh
    pip install pandas matplotlib
+   ```
+
+#### Download & Setup the Project
+1. **Download the ZIP file** from the GitHub repository.
+2. **Extract the ZIP file** to your preferred location.
+3. **Update the dataset path** in `final_code.py`:
+   ```python
+   df = pd.read_csv(r"your_file_path/Sampath.csv")
+   ```
+   Replace `your_file_path` with the actual location where you extracted the files.
+
+4. **Run the script**
+   ```sh
+   python final_code.py
+   ```
+
+#### Install Python & Dependencies
+1. **Download and install Python** from [Python.org](https://www.python.org/downloads/).
+2. **Verify the installation**
+   ```sh
+   python --version
+   ```
+3. **Install required packages**
+   ```sh
+   pip install pandas matplotlib
    ```  
 1. **Clone the repository**  
    ```sh
